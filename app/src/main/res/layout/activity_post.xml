@@ -5,23 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".PostActivity">
 
-    <Button
-        android:id="@+id/btnShow"
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter hero name"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etDesc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Show Heroes"
+        android:hint="Enter Description"
         />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Register Heroes"
+        android:text="Register"
         />
 
 </LinearLayout>
